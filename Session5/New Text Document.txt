@@ -1,0 +1,3 @@
+Hi. This session was for git homeworks.
+Our teamwork git repository:
+https://github.com/Marci051/crocodile-git-exercises
