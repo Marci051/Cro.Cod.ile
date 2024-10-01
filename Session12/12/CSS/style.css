@@ -48,11 +48,14 @@
   width: 65%;
   position: relative;
 }
+.a .right-side-bar .second-part .right-side-bar-pic img {
+  width: 100%;
+}
 .a .right-side-bar .second-part .right-side-bar-pic div {
   color: white;
   position: absolute;
   z-index: 1000;
-  top: 60%;
+  top: 35%;
   padding: 4%;
 }
 .a .right-side-bar .second-part .right-side-bar-pic div p {
@@ -176,7 +179,11 @@
   width: 100%;
   margin: 0;
 }
+.a .left-side-bar .contact .socials .social span {
+  font-weight: 700;
+}
 .a .left-side-bar .contact .socials .social .right {
+  width: 65%;
   display: flex;
   justify-content: center;
   background-color: rgba(255, 133, 70, 0.4509803922);
@@ -202,6 +209,7 @@
   border-radius: 15px 0 0 15px;
   padding: 2% 7%;
   font-weight: 600;
+  width: 30%;
 }
 .a .left-side-bar .contact .socials .social .left p {
   margin-block-start: 0;
@@ -218,8 +226,8 @@
   color: black;
 }
 
+/* Mobile */
 @media (max-width: 576px) {
-  /* Mobile */
   .a {
     flex-direction: column;
     margin: 2% 3%;
@@ -228,23 +236,20 @@
   .a .left-side-bar {
     width: 100%;
   }
-  .a .right-side-bar .montakhab {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .a .right-side-bar .montakhab .buttons {
-    margin-top: 10px;
-  }
   .a .right-side-bar .second-part {
     flex-direction: column;
   }
   .a .right-side-bar .second-part .right-side-bar-pic,
   .a .right-side-bar .second-part .right-side-bar-cards {
+    width: 95%;
+  }
+  .a .right-side-bar .second-part .right-side-bar-pic img {
     width: 100%;
+    height: auto;
   }
   .a .right-side-bar .second-part .right-side-bar-pic div {
-    position: static;
     padding: 2%;
+    top: 46%;
   }
   .a .right-side-bar .second-part .right-side-bar-pic div p {
     font-size: 20px;
@@ -252,30 +257,212 @@
   .a .right-side-bar .second-part .right-side-bar-cards {
     margin-top: 20px;
   }
-  .a .right-side-bar .sabk-zendegi .buttons-sabk {
-    flex-direction: column;
-    gap: 10px;
-  }
-  .a .right-side-bar .sabk-zendegi .buttons-sabk a {
-    width: 100%;
-    height: auto;
-    font-size: 18px;
-  }
   .a .right-side-bar .fourthPart {
     flex-direction: column;
   }
   .a .right-side-bar .fourthPart .boxes {
     width: 100%;
+    margin-top: 10%;
+  }
+  .a .left-side-bar .montakhab {
+    margin-top: 10%;
+  }
+  .a .left-side-bar .montakhab .montakhab-boxes {
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+  .a .left-side-bar .montakhab .contact .socials .social {
+    flex-direction: column;
+  }
+  .a .left-side-bar .montakhab .contact .socials .social .right,
+  .a .left-side-bar .montakhab .contact .socials .social .left {
+    border-radius: 15px 0 15px 0;
+    padding: 5%;
+  }
+}
+/* Tablet */
+@media (min-width: 577px) and (max-width: 768px) {
+  .a {
+    flex-direction: column;
+    margin: 2% 4%;
+  }
+  .a .right-side-bar,
+  .a .left-side-bar {
+    width: 100%;
+  }
+  .a .right-side-bar .second-part {
+    flex-direction: column;
+  }
+  .a .right-side-bar .second-part .right-side-bar-pic,
+  .a .right-side-bar .second-part .right-side-bar-cards {
+    width: 95%;
+  }
+  .a .right-side-bar .second-part .right-side-bar-pic img {
+    width: 100%;
+    height: auto;
+  }
+  .a .right-side-bar .second-part .right-side-bar-pic div {
+    padding: 2%;
+    top: 70%;
+  }
+  .a .right-side-bar .second-part .right-side-bar-pic div p {
+    font-size: 22px;
+  }
+  .a .right-side-bar .second-part .right-side-bar-cards {
+    margin-top: 20px;
+  }
+  .a .right-side-bar .fourthPart {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .a .right-side-bar .fourthPart .boxes {
+    width: 48%;
+  }
+  .a .left-side-bar .montakhab .montakhab-boxes {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10%;
+    margin-right: 10%;
+  }
+  .a .left-side-bar .montakhab .montakhab-boxes div:first-of-type {
+    width: 30%;
+  }
+  .a .left-side-bar .montakhab .montakhab-boxes p {
+    width: 65%;
+  }
+  .a .left-side-bar .montakhab .contact .socials .social {
+    flex-direction: row;
+  }
+  .a .left-side-bar .montakhab .contact .socials .social .right,
+  .a .left-side-bar .montakhab .contact .socials .social .left {
+    border-radius: 10px;
+    padding: 5%;
+  }
+}
+/* Small Desktop */
+@media (min-width: 769px) and (max-width: 1279px) {
+  .a {
+    margin: 2% 4%;
+  }
+  .a .right-side-bar {
+    width: 60%;
+  }
+  .a .left-side-bar {
+    width: 40%;
+  }
+  .a .right-side-bar .second-part {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .a .right-side-bar .second-part .right-side-bar-pic {
+    width: 96%;
+  }
+  .a .right-side-bar .second-part .right-side-bar-pic img {
+    width: 100%;
+    height: auto;
+  }
+  .a .right-side-bar .second-part .right-side-bar-pic div {
+    position: absolute;
+    top: 50%;
+    padding: 2%;
+  }
+  .a .right-side-bar .second-part .right-side-bar-pic div p {
+    font-size: 24px;
+  }
+  .a .right-side-bar .second-part .right-side-bar-cards {
+    width: 85%;
+  }
+  .a .right-side-bar .fourthPart {
+    flex-direction: row;
+  }
+  .a .right-side-bar .fourthPart .boxes {
+    width: 48%;
   }
   .a .left-side-bar .montakhab-boxes {
-    flex-direction: column;
+    flex-direction: row;
+    margin-bottom: 5%;
+  }
+  .a .left-side-bar .montakhab-boxes div:first-of-type {
+    width: 50%;
+  }
+  .a .left-side-bar .montakhab-boxes div:first-of-type img {
+    width: 100%;
+  }
+  .a .left-side-bar .montakhab-boxes p {
+    width: 100%;
   }
   .a .left-side-bar .contact .socials .social {
-    flex-direction: column;
+    flex-direction: row;
   }
-  .a .left-side-bar .contact .socials .social .right,
+  .a .left-side-bar .contact .socials .social .right {
+    border-radius: 0 15px 15px 0;
+    padding: 5%;
+  }
   .a .left-side-bar .contact .socials .social .left {
-    border-radius: 10px;
+    border-radius: 15px 0 0 15px;
+    padding: 5%;
+  }
+}
+/* Large Desktop */
+@media (min-width: 1280px) {
+  .a {
+    margin: 2% 5%;
+  }
+  .a .right-side-bar {
+    width: 55%;
+  }
+  .a .left-side-bar {
+    width: 25%;
+  }
+  .a .right-side-bar .second-part {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .a .right-side-bar .second-part .right-side-bar-pic {
+    width: 65%;
+  }
+  .a .right-side-bar .second-part .right-side-bar-pic img {
+    width: 100%;
+    height: auto;
+  }
+  .a .right-side-bar .second-part .right-side-bar-pic div {
+    position: absolute;
+    top: 30%;
+    padding: 2%;
+  }
+  .a .right-side-bar .second-part .right-side-bar-pic div p {
+    font-size: 26px;
+  }
+  .a .right-side-bar .second-part .right-side-bar-cards {
+    width: 35%;
+  }
+  .a .right-side-bar .fourthPart {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .a .right-side-bar .fourthPart .boxes {
+    width: 32%;
+  }
+  .a .left-side-bar .montakhab-boxes {
+    flex-direction: row;
+    margin-bottom: 5%;
+  }
+  .a .left-side-bar .montakhab-boxes div:first-of-type {
+    width: 100%;
+  }
+  .a .left-side-bar .montakhab-boxes p {
+    width: 100%;
+  }
+  .a .left-side-bar .contact .socials .social {
+    flex-direction: row;
+  }
+  .a .left-side-bar .contact .socials .social .right {
+    border-radius: 0 15px 15px 0;
+    padding: 5%;
+  }
+  .a .left-side-bar .contact .socials .social .left {
+    border-radius: 15px 0 0 15px;
     padding: 5%;
   }
 }
