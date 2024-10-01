@@ -1,0 +1,283 @@
+._a1, .a .right-side-bar .sabk-zendegi .buttons-sabk a:last-of-type, .a .right-side-bar .montakhab .buttons a:first-of-type {
+  color: white;
+  background-color: #17c4e2;
+  padding: 5px 10px;
+  border-radius: 14px;
+}
+
+._a2, .a .right-side-bar .sabk-zendegi .buttons-sabk a:first-of-type, .a .right-side-bar .montakhab .buttons a:last-of-type {
+  color: black;
+  background-color: #acdee7;
+  padding: 5px 10px;
+  border-radius: 14px;
+}
+
+.a {
+  font-family: Yekan Bakh;
+  direction: rtl;
+  margin: 2% 5%;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+.a .right-side-bar {
+  width: 55%;
+}
+.a .right-side-bar .montakhab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2%;
+}
+.a .right-side-bar .montakhab h2 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.a .right-side-bar .montakhab .buttons a {
+  font-size: 14px;
+  color: black;
+  text-decoration: unset;
+}
+.a .right-side-bar .second-part {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4%;
+}
+.a .right-side-bar .second-part .right-side-bar-pic {
+  width: 65%;
+  position: relative;
+}
+.a .right-side-bar .second-part .right-side-bar-pic div {
+  color: white;
+  position: absolute;
+  z-index: 1000;
+  top: 60%;
+  padding: 4%;
+}
+.a .right-side-bar .second-part .right-side-bar-pic div p {
+  font-size: 26px;
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+}
+.a .right-side-bar .second-part .right-side-bar-pic div span {
+  font-weight: 400;
+}
+.a .right-side-bar .second-part .right-side-bar-cards {
+  width: 35%;
+  border: 1px solid rgba(114, 114, 114, 0.3);
+  border-radius: 10px;
+  padding: 15px;
+  padding-top: 0;
+  font-size: 16px;
+}
+.a .right-side-bar .second-part .right-side-bar-cards h4 {
+  margin-block-end: 0;
+  color: #17c4e2;
+}
+.a .right-side-bar .second-part .right-side-bar-cards p {
+  color: black;
+}
+.a .right-side-bar .second-part .right-side-bar-cards hr {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(114, 114, 114, 0.3);
+  border: none;
+}
+.a .right-side-bar .sabk-zendegi .buttons-sabk {
+  display: flex;
+  gap: 10%;
+}
+.a .right-side-bar .sabk-zendegi .buttons-sabk a {
+  width: 15px;
+  height: 15px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  color: black;
+  text-decoration: unset;
+}
+.a .right-side-bar .sabk-zendegi .buttons-sabk a:first-of-type {
+  border-radius: 10px;
+}
+.a .right-side-bar .sabk-zendegi .buttons-sabk a:last-of-type {
+  border-radius: 10px;
+}
+.a .right-side-bar .fourthPart {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.a .right-side-bar .fourthPart .boxes {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.a .right-side-bar .fourthPart .boxes img {
+  width: 100%;
+  margin: auto;
+}
+.a .right-side-bar .fourthPart .boxes span {
+  font-size: 14px;
+  color: #17c4e2;
+  margin-block-start: 15px;
+}
+.a .right-side-bar .fourthPart .boxes p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.a .right-side-bar .fourthPart .boxes p:first-of-type {
+  font-size: 16px;
+}
+.a .right-side-bar .fourthPart .boxes p:last-of-type {
+  font-size: 13px;
+  color: #bababa;
+}
+.a .left-side-bar {
+  width: 25%;
+}
+.a .left-side-bar .montakhab {
+  display: flex;
+  flex-direction: column;
+}
+.a .left-side-bar .montakhab h2 {
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+.a .left-side-bar .montakhab .montakhab-boxes {
+  display: flex;
+  gap: 3%;
+}
+.a .left-side-bar .montakhab .montakhab-boxes div:first-of-type {
+  display: flex;
+  align-items: center;
+}
+.a .left-side-bar .montakhab .montakhab-boxes div:first-of-type img {
+  width: 100%;
+}
+.a .left-side-bar .montakhab .montakhab-boxes p:first-of-type {
+  font-size: 16px;
+}
+.a .left-side-bar .montakhab .montakhab-boxes p:last-of-type {
+  font-size: 13px;
+  color: #bababa;
+}
+.a .left-side-bar .contact .socials {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 11px;
+}
+.a .left-side-bar .contact .socials .social {
+  display: flex;
+  gap: 2px;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+}
+.a .left-side-bar .contact .socials .social .right {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 133, 70, 0.4509803922);
+  border-radius: 0 15px 15px 0;
+  padding: 2% 8%;
+  padding-right: 2%;
+}
+.a .left-side-bar .contact .socials .social .right div:first-of-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.a .left-side-bar .contact .socials .social .right div:first-of-type img {
+  width: 35px;
+}
+.a .left-side-bar .contact .socials .social .right p {
+  margin: auto;
+}
+.a .left-side-bar .contact .socials .social .left {
+  text-align: center;
+  background-color: rgba(255, 133, 70, 0.4509803922);
+  border-radius: 15px 0 0 15px;
+  padding: 2% 7%;
+  font-weight: 600;
+}
+.a .left-side-bar .contact .socials .social .left p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding: 10px;
+  padding-top: 5px;
+}
+.a .left-side-bar .contact .socials .social .left a {
+  display: block;
+  direction: ltr;
+  padding: 10px;
+  padding-bottom: 0;
+  text-decoration: unset;
+  color: black;
+}
+
+@media (max-width: 576px) {
+  /* Mobile */
+  .a {
+    flex-direction: column;
+    margin: 2% 3%;
+  }
+  .a .right-side-bar,
+  .a .left-side-bar {
+    width: 100%;
+  }
+  .a .right-side-bar .montakhab {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .a .right-side-bar .montakhab .buttons {
+    margin-top: 10px;
+  }
+  .a .right-side-bar .second-part {
+    flex-direction: column;
+  }
+  .a .right-side-bar .second-part .right-side-bar-pic,
+  .a .right-side-bar .second-part .right-side-bar-cards {
+    width: 100%;
+  }
+  .a .right-side-bar .second-part .right-side-bar-pic div {
+    position: static;
+    padding: 2%;
+  }
+  .a .right-side-bar .second-part .right-side-bar-pic div p {
+    font-size: 20px;
+  }
+  .a .right-side-bar .second-part .right-side-bar-cards {
+    margin-top: 20px;
+  }
+  .a .right-side-bar .sabk-zendegi .buttons-sabk {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .a .right-side-bar .sabk-zendegi .buttons-sabk a {
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+  }
+  .a .right-side-bar .fourthPart {
+    flex-direction: column;
+  }
+  .a .right-side-bar .fourthPart .boxes {
+    width: 100%;
+  }
+  .a .left-side-bar .montakhab-boxes {
+    flex-direction: column;
+  }
+  .a .left-side-bar .contact .socials .social {
+    flex-direction: column;
+  }
+  .a .left-side-bar .contact .socials .social .right,
+  .a .left-side-bar .contact .socials .social .left {
+    border-radius: 10px;
+    padding: 5%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
